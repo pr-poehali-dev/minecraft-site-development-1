@@ -225,6 +225,183 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Donation Section */}
+      <section className="py-16 px-4">
+        <div className="container mx-auto">
+          <h3 className="text-3xl font-bold text-center mb-4 text-minecraft-red">
+            Поддержать сервер
+          </h3>
+          <p className="text-center text-gray-400 mb-12 max-w-2xl mx-auto">
+            Получи уникальные привилегии и помоги развитию сервера! Каждая покупка делает REDBOXPVP еще лучше.
+          </p>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {/* Saphire Package */}
+            <Card className="bg-gradient-to-b from-blue-600/20 to-blue-800/20 border-2 border-blue-500/30 hover:border-blue-400 transition-all duration-300 hover:scale-105 relative overflow-hidden group">
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-600/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <CardHeader className="relative">
+                <div className="text-center">
+                  <div className="text-4xl mb-2">💎</div>
+                  <CardTitle className="text-blue-400 text-xl mb-2">SAPHIRE</CardTitle>
+                  <div className="text-3xl font-bold text-white">599₽</div>
+                </div>
+              </CardHeader>
+              <CardContent className="relative">
+                <ul className="space-y-2 mb-6 text-sm">
+                  <li className="flex items-center gap-2 text-gray-300">
+                    <Icon name="Check" size={16} className="text-blue-400" />
+                    Цветной ник в чате
+                  </li>
+                  <li className="flex items-center gap-2 text-gray-300">
+                    <Icon name="Check" size={16} className="text-blue-400" />
+                    x1.5 опыта в играх
+                  </li>
+                  <li className="flex items-center gap-2 text-gray-300">
+                    <Icon name="Check" size={16} className="text-blue-400" />
+                    5 дополнительных слотов
+                  </li>
+                  <li className="flex items-center gap-2 text-gray-300">
+                    <Icon name="Check" size={16} className="text-blue-400" />
+                    Приоритет входа
+                  </li>
+                </ul>
+                <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white">
+                  <Icon name="ShoppingCart" size={16} className="mr-2" />
+                  Купить
+                </Button>
+              </CardContent>
+            </Card>
+
+            {/* Ehber Package */}
+            <Card className="bg-gradient-to-b from-purple-600/20 to-purple-800/20 border-2 border-purple-500/30 hover:border-purple-400 transition-all duration-300 hover:scale-105 relative overflow-hidden group">
+              <div className="absolute inset-0 bg-gradient-to-r from-purple-600/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <CardHeader className="relative">
+                <div className="text-center">
+                  <div className="text-4xl mb-2">🔮</div>
+                  <CardTitle className="text-purple-400 text-xl mb-2">EHBER</CardTitle>
+                  <div className="text-3xl font-bold text-white">899₽</div>
+                </div>
+              </CardHeader>
+              <CardContent className="relative">
+                <ul className="space-y-2 mb-6 text-sm">
+                  <li className="flex items-center gap-2 text-gray-300">
+                    <Icon name="Check" size={16} className="text-purple-400" />
+                    Все из Saphire
+                  </li>
+                  <li className="flex items-center gap-2 text-gray-300">
+                    <Icon name="Check" size={16} className="text-purple-400" />
+                    x2 опыта в играх
+                  </li>
+                  <li className="flex items-center gap-2 text-gray-300">
+                    <Icon name="Check" size={16} className="text-purple-400" />
+                    Команда /fly в лобби
+                  </li>
+                  <li className="flex items-center gap-2 text-gray-300">
+                    <Icon name="Check" size={16} className="text-purple-400" />
+                    Уникальные эффекты
+                  </li>
+                </ul>
+                <Button className="w-full bg-purple-600 hover:bg-purple-700 text-white">
+                  <Icon name="ShoppingCart" size={16} className="mr-2" />
+                  Купить
+                </Button>
+              </CardContent>
+            </Card>
+
+            {/* Chihera Package */}
+            <Card className="bg-gradient-to-b from-minecraft-red/20 to-red-800/20 border-2 border-minecraft-red/50 hover:border-minecraft-red transition-all duration-300 hover:scale-105 relative overflow-hidden group">
+              <div className="absolute inset-0 bg-gradient-to-r from-minecraft-red/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute top-2 right-2 bg-minecraft-red text-white text-xs px-2 py-1 rounded">ПОПУЛЯРНЫЙ</div>
+              <CardHeader className="relative">
+                <div className="text-center">
+                  <div className="text-4xl mb-2">⚡</div>
+                  <CardTitle className="text-minecraft-red text-xl mb-2">CHIHERA</CardTitle>
+                  <div className="text-3xl font-bold text-white">1299₽</div>
+                </div>
+              </CardHeader>
+              <CardContent className="relative">
+                <ul className="space-y-2 mb-6 text-sm">
+                  <li className="flex items-center gap-2 text-gray-300">
+                    <Icon name="Check" size={16} className="text-minecraft-red" />
+                    Все из Ehber
+                  </li>
+                  <li className="flex items-center gap-2 text-gray-300">
+                    <Icon name="Check" size={16} className="text-minecraft-red" />
+                    x2.5 опыта в играх
+                  </li>
+                  <li className="flex items-center gap-2 text-gray-300">
+                    <Icon name="Check" size={16} className="text-minecraft-red" />
+                    Эксклюзивные кейсы
+                  </li>
+                  <li className="flex items-center gap-2 text-gray-300">
+                    <Icon name="Check" size={16} className="text-minecraft-red" />
+                    Доступ к бета-играм
+                  </li>
+                </ul>
+                <Button className="w-full bg-minecraft-red hover:bg-minecraft-darkred text-white">
+                  <Icon name="ShoppingCart" size={16} className="mr-2" />
+                  Купить
+                </Button>
+              </CardContent>
+            </Card>
+
+            {/* Lunar Blade Package */}
+            <Card className="bg-gradient-to-b from-yellow-600/20 to-orange-800/20 border-2 border-yellow-500/30 hover:border-yellow-400 transition-all duration-300 hover:scale-105 relative overflow-hidden group">
+              <div className="absolute inset-0 bg-gradient-to-r from-yellow-600/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute top-2 right-2 bg-gradient-to-r from-yellow-500 to-orange-500 text-white text-xs px-2 py-1 rounded">ЭЛИТНЫЙ</div>
+              <CardHeader className="relative">
+                <div className="text-center">
+                  <div className="text-4xl mb-2">🗡️</div>
+                  <CardTitle className="text-yellow-400 text-xl mb-2">LUNAR BLADE</CardTitle>
+                  <div className="text-3xl font-bold text-white">1899₽</div>
+                </div>
+              </CardHeader>
+              <CardContent className="relative">
+                <ul className="space-y-2 mb-6 text-sm">
+                  <li className="flex items-center gap-2 text-gray-300">
+                    <Icon name="Check" size={16} className="text-yellow-400" />
+                    Все из Chihera
+                  </li>
+                  <li className="flex items-center gap-2 text-gray-300">
+                    <Icon name="Check" size={16} className="text-yellow-400" />
+                    x3 опыта в играх
+                  </li>
+                  <li className="flex items-center gap-2 text-gray-300">
+                    <Icon name="Check" size={16} className="text-yellow-400" />
+                    Уникальные скины
+                  </li>
+                  <li className="flex items-center gap-2 text-gray-300">
+                    <Icon name="Check" size={16} className="text-yellow-400" />
+                    Персональная поддержка
+                  </li>
+                </ul>
+                <Button className="w-full bg-gradient-to-r from-yellow-600 to-orange-600 hover:from-yellow-700 hover:to-orange-700 text-white">
+                  <Icon name="ShoppingCart" size={16} className="mr-2" />
+                  Купить
+                </Button>
+              </CardContent>
+            </Card>
+          </div>
+
+          <div className="mt-12 text-center">
+            <Card className="bg-minecraft-gray/20 border-minecraft-lightgray max-w-2xl mx-auto">
+              <CardContent className="p-6">
+                <Icon name="Shield" size={32} className="text-minecraft-red mx-auto mb-4" />
+                <h4 className="text-xl font-bold text-white mb-2">Безопасная оплата</h4>
+                <p className="text-gray-400 mb-4">
+                  Принимаем карты, СБП, QIWI, WebMoney и криптовалюты
+                </p>
+                <div className="flex justify-center space-x-4 text-sm text-gray-400">
+                  <span>💳 Visa/MasterCard</span>
+                  <span>📱 СБП</span>
+                  <span>₿ Crypto</span>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="py-12 px-4 border-t border-minecraft-gray">
         <div className="container mx-auto">
